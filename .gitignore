@@ -1,0 +1,8 @@
+shortcuts.txt
+CLINE_RULES.md
+AGENT.md
+__pycache__/
+*.pyc
+architecture/
+knowledge/
+project_docs/
