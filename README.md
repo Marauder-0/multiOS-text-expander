@@ -49,20 +49,20 @@ It uses a driver-level `evdev` backend on Linux for low latency, and a platform-
    - **Linux**:
      Because `evdev` interacts directly with Linux input devices, the script must be run with root privileges. Use the `-E` flag to preserve your user environment variables:
      ```bash
-     sudo -E python3 main1.py
+     sudo -E python3 main.py
      ```
      Select your keyboard index from the displayed list.
 
    - **Windows**:
      Run the script from an administrator PowerShell or Command Prompt:
      ```cmd
-     python main1.py
+     python main.py
      ```
 
    - **macOS**:
      Run the script in the Terminal:
      ```bash
-     python3 main1.py
+     python3 main.py
      ```
      *Note: You may need to grant Accessibility permissions to your Terminal application in System Preferences.*
 
